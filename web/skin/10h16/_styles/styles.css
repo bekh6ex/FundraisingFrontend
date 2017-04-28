@@ -860,22 +860,26 @@ body.page-supporters section .box-header span:before {
  */
 #bank-detail-banner {
     display: none;
+    max-width: 1000px;
+    width: 100%;
+    position: fixed;
+    bottom: 120px;
 }
 
 #bank-detail-banner #bank-details, #sms-details {
-    width: 948px;
     height: 40px;
-    position: fixed;
-    bottom: 56px;
+    position: absolute;
     background: #479ee7;
     padding: 15px;
     border-radius: 8px;
     color: white;
     z-index: 1100;
+    width: 100%;
 }
 
 #bank-detail-banner .bank-details {
     float: left;
+    padding-right: 10px;
 }
 
 #bank-detail-banner #sms-details .icon-phone {
